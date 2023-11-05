@@ -7,17 +7,21 @@
 body {
     padding: 50px;
     background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
 
 .card {
-    background: linear-gradient(to bottom right, #0172AF, #74FEBD);
     height: 500px;
     width: 430px;
-    margin: 100px 0 0 490px;
+    background: linear-gradient(to bottom right, #0172AF, #74FEBD);
     text-align: center;
-    border: transparent;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 1px 1px 15px #0172AF;
+    max-width: 400px; 
     transition: 0.2s;
 }
 
@@ -108,10 +112,14 @@ body {
     }
     .weather-info{
         display: flex;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .info-item {
         flex-basis: 100%;
+        text-align: left;
+        flex-basis: calc(33.33% - 20px);
     }
 }
