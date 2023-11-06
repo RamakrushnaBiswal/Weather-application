@@ -1,6 +1,6 @@
 async function fetchWeather() {
-    const apiKey = 'f7cfba9603msh444703643669cc5p17a5a0jsn62bc7ecc1fa3';
-    const baseUrl = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather';
+    const apiKey = 'f7cfba9603msh444703643669cc5p17a5a0jsn62bc7ecc1fa3';//api key
+    const baseUrl = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather';//url of weather
     const cityInput = document.getElementById('cityInput');
     const weatherInfo = document.getElementById('weatherInfo');
 
